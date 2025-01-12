@@ -127,19 +127,58 @@ export const DATA = {
       start: "2016",
       end: "2020",
     },
-    // {
-    //   school: "Wilfrid Laurier University",
-    //   href: "https://wlu.ca",
-    //   degree: "Bachelor's Degree of Business Administration (BBA)",
-    //   logoUrl: "/laurier.png",
-    //   start: "2016",
-    //   end: "2021",
-    // },
+    {
+      school: "University of Sussex",
+      href: "",
+      degree: "",
+      logoUrl: "/laurier.png",
+      start: "2022",
+      end: "2024",
+    },
   ],
   projects: [
     {
-      title: "Ondo Business Saas",
-      href: "https://www.ondobusinesspremises.com",
+      title: "Figorr",
+      href: "",
+      dates: "Nov 2024 - Present",
+      active: true,
+      description:
+        "An e-commerce logistics platform geared towards food storage infrastructure.",
+      technologies: [
+        "React",
+        "MongoDB",
+        "SaSS",
+        "Material UI",
+        "Redux",
+        "Chakra UI"
+      ],
+      links: [
+      ],
+      image: "/logistics.png",
+      video:"",
+    },
+    {
+      title: "Zam",
+      href: "",
+      dates: "Dec 2024 - Present",
+      active: true,
+      description:
+        "A web application that aids businesses with customer support.",
+      technologies: [
+        "React",
+        "SaSS",
+        "Material UI",
+        "Redux",
+        "Chakra UI"
+      ],
+      links: [
+      ],
+      image: "/zam.png",
+      video:"",
+    },
+    {
+      title: "Ondo Business Premises Saas",
+      href: "",
       dates: "May 2024 - Present",
       active: true,
       description:
@@ -156,7 +195,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://www.ondobusinesspremises.com",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -235,34 +274,34 @@ export const DATA = {
       image: "/pngn-clothing.png",
       video:"",
     },
-    {
-      title: "Pelumi Corner",
-      href: "https://pelumi-corner.netlify.app/",
-      dates: "August 2024 - September 2024",
-      active: true,
-      description:
-        "Developed a blog app with an authentication system and a frontend admin panel.",
-      technologies: [
-        "React",
-        "Firebase",
-        "Tailwind",
-        "Redux",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://pelumi-corner.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/mrpelumi/pelumi-corner",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/pelumi-corner.png",
-      video:"",
-    },
+    // {
+    //   title: "Pelumi Corner",
+    //   href: "https://pelumi-corner.netlify.app/",
+    //   dates: "August 2024 - September 2024",
+    //   active: true,
+    //   description:
+    //     "Developed a blog app with an authentication system and a frontend admin panel.",
+    //   technologies: [
+    //     "React",
+    //     "Firebase",
+    //     "Tailwind",
+    //     "Redux",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://pelumi-corner.netlify.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/mrpelumi/pelumi-corner",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/pelumi-corner.png",
+    //   video:"",
+    // },
   ],
   hackathons: [
     // {
